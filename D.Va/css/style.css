@@ -1,0 +1,136 @@
+body{
+	background-color:#feabe6;
+}
+p{
+	text-align:justify;
+	font-size:1.1rem;
+}
+h1{
+	font-size:2.5rem;
+}
+ul{
+	list-style:none;
+}
+#header{
+	padding-bottom:1.0rem;
+	border-bottom:0.1rem solid black;
+}
+
+/*****Logo du Site*****/
+#LogoDVa{
+	display:block;
+	position:absolute;
+	width:7.0rem;
+	float:left;
+}
+
+/****Logo-titre du site*****/
+#Nerf{
+	display:block;
+	width:10.0rem;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0rem;
+}
+
+/*****Menu*****/
+#case{
+	display:inline-block; 	
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:right;
+}
+.formulaire{
+	display: inline-block;
+}
+.formulaire.champ{
+	width:60.0rem;
+	height:3.5rem;
+}
+
+/*****Image background*****/
+#imageback{
+	margin-top:1.0rem;
+	background-image: url("../img/DVa3.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:20.0rem;
+	padding-top:1.0rem;
+}
+
+/*****Les compétences*****/
+#competences{
+	width:100%;
+	margin-bottom:5.0rem;
+}
+#competence1, #competence2, #competence3, #competence4, #competence5, #competence6{
+	display:inline-block;
+	text-align:center;
+	margin-left:6.0rem;
+	margin-right:5.0rem;
+	vertical-align:middle;
+	padding:0.0rem;;
+}
+
+/*****Origine Géo+Formulaire*****/
+#part2{
+	width:100%;
+}
+#geo, #form{
+	display:inline-block;
+	margin:0.0rem;
+	padding:0.0rem;
+	width:45%;
+}
+#geo{
+	border-right: 0.1rem solid black;
+}
+#titre{
+	text-align:left;
+}
+#map{
+	display:block;
+	padding-left:1.0rem;
+	padding-right:1.0rem;
+	
+}
+
+/*****Formulaire*****/
+#prenom, #nom, #ville, #date,#message, #mail, #photo{
+	margin-bottom:0.3rem;
+	margin-top:0.3rem;
+}
+#prenom,#nom{
+	display:inline-block;
+}
+#ville, #date{
+	display:inline-block;
+}
+#prenom, #date{
+	width:40%;
+	float:left;
+}
+#nom, #ville{
+	width:40%;
+	float:right;
+}
+#message, #mail, #photo{
+	width:100%;
+	height:auto;
+}
+#ok{
+	float:right;
+	width:5.0rem;
+}
+
+/*****Footer*****/
+#footer{
+	border-top:0.1rem solid black;
+}
+#footer p{
+	float:right;
+	padding-right:1.5rem;
+}
